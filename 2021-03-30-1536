@@ -1,0 +1,19 @@
+nohup: ignoring input
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/auth/register        --> fengzigneg/godocker/controller.Register (3 handlers)
+[GIN-debug] POST   /api/auth/login           --> fengzigneg/godocker/controller.Login (3 handlers)
+[GIN-debug] Listening and serving HTTP on :1111
+[GIN] 2021/03/30 - 15:39:11 | 404 |         847ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 15:41:10 | 404 |         658ns |       127.0.0.1 | GET      "/api/auth/register"
+[GIN] 2021/03/30 - 16:13:16 | 404 |         775ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 16:20:07 | 404 |         762ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 16:31:06 | 404 |         741ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 16:31:06 | 404 |         710ns |       127.0.0.1 | GET      "/favicon.ico"
+[GIN] 2021/03/30 - 17:26:03 | 404 |         833ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 17:43:10 | 404 |         788ns |       127.0.0.1 | GET      "/"
+[GIN] 2021/03/30 - 19:12:56 | 404 |         999ns |       127.0.0.1 | GET      "/"
