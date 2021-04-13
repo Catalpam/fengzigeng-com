@@ -6,9 +6,10 @@ import (
 )
 
 func CollectRoute(r *gin.Engine) *gin.Engine {
-	r.POST("/api/auth/register", controller.Register)
-	r.POST("/api/auth/login", controller.Login)
+	r.POST("/iosmeeting/register", controller.Register)
+	r.POST("/iosmeeting/login", controller.Login)
 
+	
 
 	return r
 }
